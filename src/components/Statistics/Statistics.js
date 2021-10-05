@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 export default function Statistics({ title, stats }) {
   return (
     <section className="statistics">
@@ -24,3 +26,8 @@ export default function Statistics({ title, stats }) {
     </section>
   );
 }
+
+Statistics.propTypes = {
+  title: PropTypes.string,
+  stats: PropTypes.number,
+};
