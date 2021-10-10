@@ -22,21 +22,3 @@
   list-style: none;
   padding: 0px;
 }
-
-.item {
-  display: flex;
-  flex-direction: column;
-  width: 80px;
-  height: 50px;
-  justify-content: center;
-  align-items: center;
-  padding: 5px;
-}
-.label {
-}
-
-.percentage {
-  margin-top: 10px;
-  font-size: 18px;
-  font-weight: 700;
-}
